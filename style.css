@@ -1,0 +1,43 @@
+.image{
+    position: relative;
+}
+.images img{
+    position: absolute;
+    width: 52%;
+    top: 4%;
+right: 14%;
+
+}
+
+.icon{
+    color: #1B7FED;
+}
+i{
+font-size: 2.5rem;
+}
+
+.imgs{
+    transition: all 2s;
+}
+
+/* .images{
+    position: absolute;
+    top: 0%;
+} */
+@media only screen and (max-width: 600px){
+.last{
+    flex-direction: column;
+}
+.images img{
+    width: 52%;
+}
+}
+
+@media only screen and (max-width: 450px){
+.images img{
+    top: 3.4%;
+}
+.endd p{
+    display: none;
+}
+}

@@ -1,0 +1,117 @@
+<<!doctype html>
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>instagram</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" </head> 
+        <link rel="stylesheet" href="style.css">
+        <body>
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-5 image">
+                    <img width="100%"
+                        src="https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones-2x.png?__makehaste_cache_breaker=73SVAexZgBW"
+                        alt="">
+                        <div class=" images">
+                            <img class="imgs" src="./4 (1).png" alt="">
+                            <img class="imgs" src="./4 (2).png" alt="">
+                            <img class="imgs" src="./4 (3).png" alt="">
+                            <img class="imgs" src="./4 (4).png" alt="">
+                        </div>
+                </div>
+                <div class="col-lg-4 d-flex flex-column gap-3">
+                    <div class=" d-flex flex-column justify-content-center align-items-center gap-3 border">
+                        <img width="40%"
+                            src="https://logos-world.net/wp-content/uploads/2020/04/Instagram-Logo-2010-2013.png"
+                            alt="">
+
+                        <input class="form-control w-75" type="text" placeholder="phone number, user name, email">
+                        <input class="form-control w-75" type="text" placeholder="password">
+                        <button class="btn btn-info w-75 fw-bold text-white">log in</button>
+                        <p>or</p>
+                        <div class="d-flex icon align-items-center gap-2"><i class="ri-facebook-box-fill"></i>
+                            <h5>log in with facebook</h5>
+                        </div>
+                        <p>forget password?</p>
+                    </div>
+
+                    <div class="d-flex border p-3 justify-content-center align-items-center">
+                        <p>dont have any account? <span class="text-info">sign in</span></p>
+
+                    </div>
+                    <p class="m-auto">get the app</p>
+                    <div class="d-flex justify-content-center">
+                        <img width="40%"
+                            src="https://tse4.mm.bing.net/th?id=OIP.dAKQ-RFshwA3YbeX7AuJeAAAAA&pid=Api&P=0&h=220"
+                            alt="">
+                        <img width="40%"
+                            src="https://tse3.mm.bing.net/th?id=OIP.zthrtc0GkS9C8VYvM6RWgQHaC3&pid=Api&P=0&h=220"
+                            alt="">
+                    </div>
+                </div>
+<div class="d-flex gap-1 justify-content-center last">
+                <div class="col-lg-3 d-flex gap-4 d-flex justify-content-center align-items-center">
+                    <p>Meta</p>
+                    <p>About</p>
+                    <p>Blog</p>
+                    <p>Jobs</p>
+                    <p>API</p>
+                    <p>Privacy</p>
+                </div>
+               <div class="col-lg-3 d-flex gap-4 d-flex justify-content-center align-items-center">
+                    <p>Beta</p>
+                    <p>Games</p>
+                    <p>Vlog</p>
+                    <p>Alert</p>
+                    <p>API</p>
+                    <p>Changer</p>
+                </div>
+              <div class="col-lg-3 d-flex gap-4 d-flex justify-content-center align-items-center endd">
+                    <p>Mode</p>
+                    <p>Trout</p>
+                    <p>Blog</p>
+                    <p>Jobs</p>
+                    <p>API</p>
+                    <p>Welcome</p>
+                </div>
+                
+     
+     </div>
+                <div class="d-flex gap-2 justify-content-center">
+               <p>English</p>
+               <p>2023 instagram from meta</p>
+            </div>
+    
+
+
+
+        </div>
+
+
+<script>
+
+let images = document.querySelectorAll(".imgs")
+let count  = 0
+
+setInterval(()=>{
+    if(count > images.length -1) {
+        count = 0
+    }
+    images.forEach((img)=> {
+    img.style.opacity = "0"
+});
+images[count].style.opacity = "1"
+count++
+
+},4000)
+
+</script>
+
+
+        </body>
+
+    </html>
